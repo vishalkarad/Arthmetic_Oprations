@@ -31,3 +31,5 @@ for (( index=1; index<${#computeDictionary[@]}; index++ ))
 do
 	dictionaryToArray[$index]=${computeDictionary[$(($index+1))]}
 done
+
+
