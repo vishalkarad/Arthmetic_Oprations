@@ -6,3 +6,5 @@ printf "Enter a three input "
 read firstInput
 read secondInput
 read thirdInput
+
+compute=$(( $firstInput + ($secondInput*$thirdInput) ))
