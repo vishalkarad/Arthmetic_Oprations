@@ -1,4 +1,8 @@
-#!/bin/bash
+#!/bin/bash -x
 
-echo "**********Arithematic Oprations***********"
+printf "**********Arithematic Oprations***********"
 
+printf "Enter a three input "
+read firstInput
+read secondInput
+read thirdInput
