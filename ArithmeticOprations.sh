@@ -12,3 +12,6 @@ compute=$(( $firstInput + ($secondInput*$thirdInput) ))
 
 # Compute multiplication and addition
 compute1=$(( ($firstInput*$secondInput) + $thirdInput ))
+
+# Compute Addition and divisin
+compute2=$(( $thirdInput + ($firstInput/$secondInput ) ))
