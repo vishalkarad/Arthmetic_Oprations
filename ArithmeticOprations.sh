@@ -1,6 +1,6 @@
 #!/bin/bash -x
-
 declare -A computeDictionary
+declare -a dictionaryToArray
 printf "**********Arithematic Oprations***********"
 
 printf "Enter a three input "
@@ -25,3 +25,9 @@ computeDictionary[1]=$compute
 computeDictionary[2]=$compute1
 computeDictionary[3]=$compute2
 computeDictionary[4]=$compute3
+
+# Convert compute dictionary to array
+for (( index=1; index<${#computeDictionary[@]}; index++ ))
+do
+	dictionaryToArray[$index]=${computeDictionary[$(($index+1))]}
+done
