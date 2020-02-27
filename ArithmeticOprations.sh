@@ -7,4 +7,8 @@ read firstInput
 read secondInput
 read thirdInput
 
+#compute addition And  multiplication
 compute=$(( $firstInput + ($secondInput*$thirdInput) ))
+
+# Compute multiplication and addition
+compute1=$(( ($firstInput*$secondInput) + $thirdInput ))
